@@ -12,7 +12,7 @@ client.on("ready", () => {
 
     // Set the user presence
     client.user.setPresence({
-        status: "online",
+        status: "dnd",
         game: {
             name: "Cracking",
             type: "WATCHING"
