@@ -15,7 +15,6 @@ client.on("ready", () => {
         status: "dnd",
         game: {
             name: "Cracking",
-            type: "WATCHING"
         }
     }); 
 })
