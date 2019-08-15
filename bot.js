@@ -1,5 +1,5 @@
 const { Client } = require("discord.js");
-const { Client } = require("welcome.js")
+const { event } = require("welcome.js")
 
 // Declares our bot,
 // the disableEveryone prevents the client to ping @everyone
