@@ -3,6 +3,10 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+    
+      bot.user.setActivity("Cracking"
+    
+  //bot.user.setGame("on SourceCade!");                           
 });
 
 client.on('message', message => {
