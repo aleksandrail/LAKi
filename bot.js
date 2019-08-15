@@ -7,10 +7,6 @@ const client = new Client({
     disableEveryone: true
 });
 
-config({
-    path: __dirname + "/.env"
-})
-
 // When the bot's online, what's in these brackets will be executed
 client.on("ready", () => {
     console.log(`Hi, ${client.user.username} is now online!`);
