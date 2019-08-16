@@ -16,4 +16,4 @@ footer: {
   icon_url: client.user.avatarURL,
   text: "© ReportMeOnBadlion All Rights Reserved"
 }
-}}};)
+})}};
