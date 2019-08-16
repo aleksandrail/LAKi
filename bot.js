@@ -23,7 +23,7 @@ client.on("ready", () => {
 client.on("message", async message => {
     console.log(`${message.author.username} said: ${message.content}`);
 });
-  if(cmd === `${prefix}serverinfo`){
+  if(cmd === "!serverinfo`){
 
     let sicon = message.guild.iconURL;
     let serverembed = new Discord.RichEmbed()
