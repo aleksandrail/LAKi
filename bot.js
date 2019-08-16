@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 bot.commands = new Discord.Collection();
-let coins = require("./coins.json");
 let purple = botconfig.purple;
 let welcome = require("./welcome.js")
 let cooldown = new Set();
